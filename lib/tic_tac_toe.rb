@@ -69,4 +69,11 @@ class TicTacToe
       false
     end
   end
+  
+  def full?
+    @board.each do |spot|
+      if spot == "X" || spot == "O"
+      end
+    end
+  end
 end
