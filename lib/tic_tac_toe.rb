@@ -8,8 +8,8 @@ class TicTacToe
   def display_board
     puts "X | X | X"
     puts "-----------"
-    puts "#{@board[3]} | #{@board[4]} | #{@board[5]}"
+    puts "X | O | O"
     puts "-----------"
-    puts "#{@board[6]} | #{@board[7]} | #{@board[8]}"
+    puts "X | O | O"
   end
 end
