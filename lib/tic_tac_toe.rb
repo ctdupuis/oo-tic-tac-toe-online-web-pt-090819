@@ -22,8 +22,6 @@ class TicTacToe
   end
   
   def position_taken?(index)
-    if @board[index].empty?
-      return false 
-    end
+    @board[index - 1].empty? ? false : true 
   end
 end
