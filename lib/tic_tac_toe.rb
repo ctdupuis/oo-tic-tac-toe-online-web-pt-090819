@@ -49,7 +49,7 @@ class TicTacToe
   
   def turn 
     puts "Choose a number 1-9"
-    user_input = gets
+    user_input = gets.strip
     input_to_index
   end
 end
