@@ -74,7 +74,7 @@ class TicTacToe
     @board.each do |spot|
       if spot == "X" || spot == "O"
       end
-      false
     end
+    false
   end
 end
