@@ -46,4 +46,8 @@ class TicTacToe
       "O"
     end
   end
+  
+  def turn 
+    puts "Choose a number 1-9"
+  end
 end
