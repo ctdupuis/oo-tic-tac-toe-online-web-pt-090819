@@ -48,6 +48,7 @@ class TicTacToe
   end
   
   def turn 
+    user_input = gets
     puts "Choose a number 1-9"
   end
 end
