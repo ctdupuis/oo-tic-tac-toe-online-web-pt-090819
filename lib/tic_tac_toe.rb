@@ -73,4 +73,8 @@ class TicTacToe
   def full?
     @board.all?{|taken| taken != " "}
   end
+  
+  def draw
+    !(won?) && full?
+  end
 end
