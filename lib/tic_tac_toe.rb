@@ -56,7 +56,7 @@ class TicTacToe
       move(index, token)
       display_board
     else
-      puts "Please enter 1-9:"
+      turn
     end
   end
 end
