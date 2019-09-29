@@ -98,6 +98,6 @@ class TicTacToe
     while over? == false 
       turn
     end
-    
+    if won?
   end
 end
