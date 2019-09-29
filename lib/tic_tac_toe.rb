@@ -38,4 +38,8 @@ class TicTacToe
     end
   return number_of_turns
   end
+  
+  def current_player
+    
+  end
 end
